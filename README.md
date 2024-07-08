@@ -1,4 +1,4 @@
-# user_management-react
+user_management-react
 
 App.js : In App.js, I had created functionality for add, delete, and edit buttons and App.js file describes the state of the user.
 
