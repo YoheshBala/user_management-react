@@ -1,0 +1,50 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+input {
+  margin: 5px;
+  padding: 8px;
+  border-radius: 3px;
+}
+
+input:focus:invalid{
+  border: 2px solid orange;
+}
+
+input:valid{
+  border: 2px solid rgb(9, 216, 33);
+}
+
+button {
+  margin: 5px;
+  padding: 8px 12px;
+  background-color: #21a6e9;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+.delete {
+  background-color: red;
+  color: white;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  border-radius: 3px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  border-radius: 3px;
+}
+
+th {
+  background-color: #f4f4f4;
+  text-align: left;
+}
